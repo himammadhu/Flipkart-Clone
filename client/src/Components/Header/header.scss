@@ -1,0 +1,72 @@
+.logo{
+
+    img{
+    top: 0;
+    height: 3rem;
+    opacity: .9;
+    padding-left: 10rem;
+    }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 4px 8px;
+    width: 38rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-left: 2rem;
+    height: 2rem;
+  
+    .inputbase {
+      width: 100%;
+      color: #3c3c3c;
+      font-size: 16px;
+      padding: 4px 8px;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .searchicon {
+        color: #3074e8;
+        margin-left: 8px;
+      }
+  }
+
+  .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 14px;
+    
+
+    .btn{
+        margin-left: 4rem;
+        color: #3074e8;
+        background-color: #fff;
+        font-size: 16px;
+        border-radius: 1px;
+        text-transform: none;
+        width: 7rem;
+        font-weight: 550;
+        height: 2.2rem;
+        margin-top: .3rem;        
+        
+    }
+    .text{
+        font-size: 16px;
+        padding-top: .5rem;
+    }
+    .cart{
+        font-size: 16px;
+        display: flex;
+        gap: .5rem;
+        
+
+    }
+  }
+  
